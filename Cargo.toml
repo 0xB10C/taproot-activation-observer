@@ -1,0 +1,13 @@
+[package]
+name = "taproot-activation-observer"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitcoin = "0.27"
+bitcoin-pool-identification = "0.1.8"
+rawtx-rs = {git = "https://github.com/0xB10C/rawtx-rs", branch = "master"}
+zmq = "0.9.2"
+colored = "2"
